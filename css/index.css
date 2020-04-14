@@ -13,9 +13,6 @@ body {
   background-color: #006485;
   height: 100%;
 }
-header {
-  height: 10vh;
-}
 section {
   display: flex;
   justify-content: space-around;
@@ -35,17 +32,18 @@ section div {
   border-radius: 3rem;
   box-shadow: inset 0 0 20px black;
 }
-footer {
+header {
+  width: 100%;
+  height: 10vh;
+}
+header nav {
+  height: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-flow: wrap;
-  height: 10vh;
 }
-nav {
-  height: 100%;
-}
-nav a {
+header nav a {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -56,46 +54,47 @@ nav a {
   width: 15%;
   border: 1px solid white;
   border-radius: 1rem;
-  height: 80%;
+  height: 65%;
   box-shadow: 0 0 20px black;
+  text-shadow: 2px 5px 10px black;
   transition: 0.8s;
 }
-nav a:hover {
+header nav a:hover {
   background-color: #00cccc;
   color: #006485;
   font-size: 5rem;
-  box-shadow: inset 0 0 20px black;
+  box-shadow: inset 0 0 15px black;
+  text-shadow: 1px 2px 5px #006485;
   transition: 0.8s;
 }
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: wrap;
+  height: 10vh;
+}
 footer a {
-  font-size: 4rem;
   color: #00cccc;
   text-shadow: 0 0 20px black;
   text-decoration: none;
-  transition: 1s;
+  transition: 0.5s;
 }
 footer a:hover {
-  font-size: 4.2rem;
-  transition: 1s;
+  color: white;
+  transition: 0.5s;
 }
-i {
+footer i {
   color: #008585;
   transition: 0.5s;
   color: #00cccc;
   text-shadow: 0 0 20px black;
 }
-i:hover {
+footer i:hover {
   color: white;
   transition: 0.5s;
   font-size: 9.5rem;
 }
-header {
-  width: 100%;
-}
-header nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-flow: wrap;
-  width: 100%;
+footer .email {
+  font-size: 4rem;
 }
