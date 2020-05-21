@@ -12,7 +12,7 @@ export default function About() {
     return (
         <AboutSection>
             <h2>Image goes here</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas reiciendis enim vero exercitationem natus odit minus? Adipisci nesciunt voluptas ipsum dolores totam odit, aliquid numquam blanditiis, quis distinctio dolor excepturi.</p>
+            <p>My name is Nick, I am 33 years old, and I live in Portland, OR. I love to learn, especially about technology. I've been an avid gamer and computer enthusiast since I was young. I like to build my computers.I beatbox using a RC-505 loop station as hobby.</p>
         </AboutSection>
     )
 }
