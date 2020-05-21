@@ -4,6 +4,7 @@ import { Switch, Route } from "react-router-dom";
 
 import About from "./About";
 import Resume from "./Resume";
+import Projects from "./Projects"
 
 const ContentSection = styled.section`
   display: flex;
@@ -24,6 +25,9 @@ function Content() {
         </Route>
         <Route path="/resume">
           <Resume />
+        </Route>
+        <Route path="/projects">
+          <Projects />
         </Route>
       </Switch>
     </ContentSection>
