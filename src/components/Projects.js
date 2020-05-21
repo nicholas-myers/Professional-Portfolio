@@ -7,7 +7,7 @@ const ProjectCard = styled.div`
   flex-flow: column;
   justify-content: space-around;
   background-color: dodgerblue;
-  height: 50vh;
+  height: 60vh;
   padding: 2rem;
   border-radius: 1rem;
 
@@ -22,6 +22,7 @@ export default function Projects() {
     <>
       <ProjectCard>
         <h2>The Family Scrapbook</h2>
+        <iframe src="https://the-family-scrapbook.netlify.app/starthere"></iframe>
         <p>
           I worked on this website as part of a 3 person team. My responsibility
           was the "Start Here Page". I also helped in the design and
@@ -32,6 +33,7 @@ export default function Projects() {
 
       <ProjectCard>
         <h2>GEARformation: Division 2</h2>
+        <iframe src="https://gearformation.netlify.app/"></iframe>
         <p>This site is a personal project. Division 2 is a video game I play. The information for the game was spread out over many sites or spreadsheets found online. My goal was to compile that information into one site to make the information easier to find. The next steps for this project are to convert to JSON and implement it as an API that anyone could use. Currently the code is written in HTML and CSS.</p>
       </ProjectCard>
 
