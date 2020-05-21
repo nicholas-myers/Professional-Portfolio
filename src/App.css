@@ -1,10 +1,12 @@
 * {
+  border: 1px solid navy;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   max-width: 100%;
   max-height: 100%;
   text-align: center;
+  color: navy;
 }
 
 body {
@@ -12,5 +14,31 @@ body {
   height: 100%;
 }
 
+html {
+  font-size: 62.5%;
+}
 
+a, p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.topNav {
+  text-decoration: none;
+  background-color: navy;
+  color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px 0 dodgerblue;
+  transition: 1s;
+
+}
+
+.topNav:hover {
+  background-color: dodgerblue;
+  box-shadow: 0 0 10px 0px navy;
+  padding: 1rem 2rem;
+  transition: 1s;
+
+}
 

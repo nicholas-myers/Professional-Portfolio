@@ -1,13 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom"
+import styled from "styled-components"
+
+const TopNav = styled.nav`
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+`
 
 export default function Nav() {
   return (
-    <nav>
-      <Link to="/">Home</Link>
-      <Link to="/">Resume</Link>
-      <Link to="/">Projects</Link>
-      <Link to="/">Blog</Link>
-    </nav>
+    <TopNav>
+      <Link className="topNav" to="/">About</Link>
+      <Link className="topNav" to="/resume">Resume</Link>
+      <Link className="topNav" to="/projects">Projects</Link>
+    </TopNav>
   );
 }
