@@ -1,5 +1,5 @@
 * {
-  border: 1px solid navy;
+  /* border: 1px solid navy; */
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -7,6 +7,7 @@
   max-height: 100%;
   text-align: center;
   color: navy;
+  text-shadow: 0 0 5px dodgerblue;
 }
 
 body {
@@ -18,7 +19,11 @@ html {
   font-size: 62.5%;
 }
 
-a, p {
+h2 {
+  font-size: 2rem;
+}
+
+a, p, li {
   font-size: 2rem;
   font-weight: bold;
 }

@@ -8,7 +8,7 @@ import Resume from "./Resume";
 const ContentSection = styled.section`
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   box-shadow: inset 0 0 40px 10px dodgerblue;
   background-color: lightblue;
   padding: 1%;
