@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 import styled from "styled-components"
 
 const TopNav = styled.nav`
@@ -11,9 +11,9 @@ const TopNav = styled.nav`
 export default function Nav() {
   return (
     <TopNav>
-      <Link className="topNav" to="/">About</Link>
-      <Link className="topNav" to="/resume">Skills</Link>
-      <Link className="topNav" to="/projects">Projects</Link>
+      <NavLink className="topNav" to="/about" activeStyle={{backgroundColor: "#5A86AF"}}>About</NavLink>
+      <NavLink className="topNav" to="/skills" activeStyle={{backgroundColor: "#5A86AF"}}>Skills</NavLink>
+      <NavLink className="topNav" to="/projects" activeStyle={{backgroundColor: "#5A86AF"}}>Projects</NavLink>
     </TopNav>
   );
 }

@@ -9,16 +9,16 @@ const Social = styled.nav`
 
 const SocialLink = styled.a`
   text-decoration: none;
-  background-color: navy;
+  background-color: #1A2243;
   color: lightgray;
   padding: 1rem;
   border-radius: 1rem;
-  box-shadow: 0 0 10px 0 dodgerblue;
+  box-shadow: 0 0 10px 0 #3ABAE6;
   font-size: 4rem;
   transition: 1s;
   &:hover {
-    background-color: dodgerblue;
-    box-shadow: 0 0 10px 2px navy;
+    background-color: #3ABAE6;
+    box-shadow: 0 0 10px 2px #1A2243;
     cursor: pointer;
     transition: .25s;
   }

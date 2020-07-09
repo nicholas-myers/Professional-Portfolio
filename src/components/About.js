@@ -4,11 +4,10 @@ import styled from "styled-components";
 const AboutSection = styled.div`
   height: 90%;
   width: 50%;
-  border: 2px solid navy;
   border-radius: 5rem;
   padding: 1%;
-  background-color: skyblue;
-  box-shadow: 0 0 2rem 0 dodgerblue;
+  background-color: #5A86AF;
+  box-shadow: 0 0 2rem 0 #3ABAE6;
   display: flex;
   justify-content: space-around;
   flex-flow: column;
@@ -16,13 +15,15 @@ const AboutSection = styled.div`
 `;
 
 const ProfilePic = styled.img`
-  border: 2px solid navy;
+  // border: 2px solid #122059;
   border-radius: 5rem;
   height: 50%;
 `;
 
 const AboutMe = styled.p`
   font-size: 2rem;
+  color: #D5E3EB;
+  text-shadow: 0 2px 20px #1A2243;
 `;
 
 export default function About() {

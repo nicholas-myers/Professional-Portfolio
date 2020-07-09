@@ -6,10 +6,9 @@ const StyledHeader = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-around;
-  box-shadow: inset 0 0 20px 5px dodgerblue;
-  background-color: lightblue;
+  box-shadow: inset 0 0 20px 5px #3ABAE6;
+  background-color: #D5E3EB;
   height: 10vh;
-
 `;
 
 const NameContainer = styled.div`
@@ -17,15 +16,14 @@ const NameContainer = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  text-shadow: 0 0 5px dodgerblue;
+  text-shadow: 0 0 5px #3ABAE6;
   @media(max-width: 1350px) {
     flex-wrap: wrap;
   }
 `;
 
 const Dot = styled.div`
-
-  border: 5px solid navy;
+  border: 5px solid #1A2243;
   @media(max-width: 1380px) {
     display: none
   }

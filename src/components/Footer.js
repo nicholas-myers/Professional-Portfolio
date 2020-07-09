@@ -6,8 +6,8 @@ const StyledFooter = styled.footer`
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: inset 0 0 20px 5px dodgerblue;
-  background-color: lightblue;
+  box-shadow: inset 0 0 20px 5px #3ABAE6;
+  background-color: #D5E3EB;
   padding: 1%;
   height: 15vh;
 `;

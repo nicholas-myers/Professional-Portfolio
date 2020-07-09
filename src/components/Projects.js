@@ -1,6 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 
+const ProjectContainer = styled.section`
+  display: flex;
+  justify-content: space-around;
+`
+
 const ProjectCard = styled.article`
   width: 30%;
   display: flex;
@@ -22,7 +27,7 @@ export default function Projects() {
   // add a info button to each card and on click a modal appears 
   // exit the modal
   return (
-    <section>
+    <ProjectContainer>
       <ProjectCard>
         <h2>The Family Scrapbook</h2>
         <iframe
@@ -48,6 +53,6 @@ export default function Projects() {
           written in HTML and CSS.
         </p>
       </ProjectCard>
-    </section>
+    </ProjectContainer>
   );
 }

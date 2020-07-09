@@ -10,8 +10,8 @@ const ContentSection = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
-  box-shadow: inset 0 0 40px 10px dodgerblue;
-  background-color: lightblue;
+  box-shadow: inset 0 0 40px 10px #3ABAE6;
+  background-color:  #D5E3EB;
   padding: 1%;
   height: 75vh;
   width: 100%;
@@ -21,10 +21,10 @@ function Content() {
   return (
     <ContentSection>
       <Switch>
-        <Route exact path="/">
+        <Route path="/about">
           <About />
         </Route>
-        <Route path="/resume">
+        <Route path="/skills">
           <Skills />
         </Route>
         <Route path="/projects">
