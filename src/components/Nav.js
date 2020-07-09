@@ -12,7 +12,7 @@ export default function Nav() {
   return (
     <TopNav>
       <Link className="topNav" to="/">About</Link>
-      <Link className="topNav" to="/resume">Resume</Link>
+      <Link className="topNav" to="/resume">Skills</Link>
       <Link className="topNav" to="/projects">Projects</Link>
     </TopNav>
   );

@@ -5,7 +5,7 @@ import styled from "styled-components";
 const StyledHeader = styled.header`
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   box-shadow: inset 0 0 20px 5px dodgerblue;
   background-color: lightblue;
   height: 10vh;
@@ -32,7 +32,6 @@ const Dot = styled.div`
 `
 
 const Title = styled.h1`
-
   font-size: 4rem;
   @media(max-width: 1350px) {
     width: 100%;

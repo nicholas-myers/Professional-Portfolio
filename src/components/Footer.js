@@ -9,7 +9,7 @@ const StyledFooter = styled.footer`
   box-shadow: inset 0 0 20px 5px dodgerblue;
   background-color: lightblue;
   padding: 1%;
-  height: 10vh;
+  height: 15vh;
 `;
 
 function Footer() {

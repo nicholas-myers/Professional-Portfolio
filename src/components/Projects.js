@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const ProjectCard = styled.div`
+const ProjectCard = styled.article`
   width: 30%;
   display: flex;
   flex-flow: column;
@@ -11,8 +11,7 @@ const ProjectCard = styled.div`
   padding: 2rem;
   border-radius: 1rem;
 
-  p,
-  h2 {
+  p, h2 {
     color: lightblue;
     text-shadow: 0 0 1rem navy;
     margin: 3%;
@@ -20,10 +19,11 @@ const ProjectCard = styled.div`
 `;
 
 export default function Projects() {
+  // add a info button to each card and on click a modal appears 
+  // exit the modal
   return (
-    <>
+    <section>
       <ProjectCard>
-       
         <h2>The Family Scrapbook</h2>
         <iframe
           src="https://the-family-scrapbook.netlify.app/starthere"
@@ -36,9 +36,7 @@ export default function Projects() {
           in HTML and CSS.
         </p>
       </ProjectCard>
-
       <ProjectCard>
-        
         <h2>GEARformation: Division 2</h2>
         <iframe src="https://gearformation.netlify.app/" height="100%"></iframe>
         <p>
@@ -50,11 +48,6 @@ export default function Projects() {
           written in HTML and CSS.
         </p>
       </ProjectCard>
-
-      <ProjectCard>
-        <h2>Dungeons and Dragons App</h2>
-        <p>Description</p>
-      </ProjectCard>
-    </>
+    </section>
   );
 }
