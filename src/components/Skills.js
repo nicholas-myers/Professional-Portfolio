@@ -13,16 +13,17 @@ const SkillNav = styled.nav`
   //   background-color: dodgerblue;
   box-shadow: 0 0 40px 10px dodgerblue;
   a {
-    background-color: dodgerblue;
+    background-color: navy;
+    padding: 0 1rem;
     box-shadow: 0 0 10px 5px dodgerblue;
+    border-radius: 1rem;
+    color: lightblue;
     text-decoration: none;
+    text-shadow: 0px 0px 15px navy;
     transition: 1s;
     &:hover {
-      font-weight: none;
       background-color: dodgerblue;
-      box-shadow: 0 0 10px 5px dodgerblue;
-      text-shadow: 0 0px 10px lightblue;
-
+      box-shadow: 0 0 10px 1px navy;
       padding: 0 1%;
       transition: 1s;
     }
@@ -33,7 +34,7 @@ export default function Skills() {
   return (
     <SkillSection>
       <SkillNav>
-        <Link>HTML</Link>
+        <Link className="linkskill">HTML</Link>
         <Link>CSS</Link>
         <Link>JAVASCRIPT</Link>
         <Link>REACT</Link>
