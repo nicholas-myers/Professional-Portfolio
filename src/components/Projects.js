@@ -11,13 +11,13 @@ const ProjectCard = styled.article`
   display: flex;
   flex-flow: column;
   justify-content: space-around;
-  background-color: dodgerblue;
+  background-color: #5A86AF;
   height: 70vh;
   padding: 2rem;
   border-radius: 1rem;
 
   p, h2 {
-    color: lightblue;
+    color: #D5E3EB;
     text-shadow: 0 0 1rem navy;
     margin: 3%;
   }

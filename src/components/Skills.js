@@ -40,12 +40,12 @@ const languages = ["HTML", "CSS", "JAVASCRIPT", "REACT", "JAVA", "PYTHON"]
   return (
     <SkillSection>
       <SkillNav>
-        <NavLink to="/skills/html">HTML</NavLink>
-        <NavLink to="/skills/css">CSS</NavLink>
-        <NavLink to="/skills/js">JAVASCRIPT</NavLink>
-        <NavLink to="/skills/react">REACT</NavLink>
-        <NavLink to="/skills/java">JAVA</NavLink>
-        <NavLink to="/skills/python">PYTHON</NavLink>
+        <NavLink to="/skills/html" activeStyle={{backgroundColor: "#3ABAE6"}}>HTML</NavLink>
+        <NavLink to="/skills/css" activeStyle={{backgroundColor: "#3ABAE6"}}>CSS</NavLink>
+        <NavLink to="/skills/js"activeStyle={{backgroundColor: "#3ABAE6"}}>JAVASCRIPT</NavLink>
+        <NavLink to="/skills/react" activeStyle={{backgroundColor: "#3ABAE6"}}>REACT</NavLink>
+        <NavLink to="/skills/java" activeStyle={{backgroundColor: "#3ABAE6"}}>JAVA</NavLink>
+        <NavLink to="/skills/python" activeStyle={{backgroundColor: "#3ABAE6"}}>PYTHON</NavLink>
       </SkillNav>
       <div>
         <Route path="/skills/html">

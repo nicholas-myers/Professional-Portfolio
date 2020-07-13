@@ -21,7 +21,7 @@ function Content() {
   return (
     <ContentSection>
       <Switch>
-        <Route path="/about">
+        <Route exact path="/">
           <About />
         </Route>
         <Route path="/skills">
