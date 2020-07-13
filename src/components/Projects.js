@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import {Link} from "react-router-dom";
 
 const ProjectContainer = styled.section`
   width: 100%;
@@ -43,6 +44,9 @@ export default function Projects() {
           src="https://the-family-scrapbook.netlify.app/starthere"
           height="100%"
         ></iframe> */}
+        <a href="https://the-family-scrapbook.netlify.app/starthere" target="_blank">
+        	https://the-family-scrapbook.netlify.app/starthere
+        </a>
         <p>
           I worked on this website as part of a 3 person team. My responsibility
           was the "Start Here Page". I also helped in the design and
@@ -53,6 +57,9 @@ export default function Projects() {
       <ProjectCard>
         <h2>GEARformation: Division 2</h2>
         {/* <iframe src="https://gearformation.netlify.app/" height="100%"></iframe> */}
+        <a href="https://gearformation.netlify.app/" target="_blank">
+        https://gearformation.netlify.app/
+        </a>
         <p>
           This is a personal project. The information for the game was spread
           out over many sites or spreadsheets found online. My goal was to
@@ -64,6 +71,9 @@ export default function Projects() {
       <ProjectCard>
         <h2>Spotify Suggester</h2>
         {/* <iframe src="https://bw-spotify1.vercel.app/signup" height="100%"></iframe> */}
+        <a href="https://bw-spotify1.vercel.app/signup" target="_blank">
+        https://bw-spotify1.vercel.app/signup
+        </a>
         <p>
           I worked on the backend for this project as part of a cross-funcitonal
           team. I was responsible for user registration and login in as well as
@@ -73,6 +83,9 @@ export default function Projects() {
       <ProjectCard>
         <h2>Food Trucker</h2>
         {/* <iframe src="https://spotify-bw-mp-frontend.spotify-bw-mp.vercel.app/" height="100%"></iframe> */}
+        <a href="https://spotify-bw-mp-frontend.spotify-bw-mp.vercel.app/" target="_blank">
+        https://spotify-bw-mp.vercel.app/
+        </a>
         <p>
           I worked as part of a cross-funcitonal team. I worked with one other
           person to implement form and state for CRUD operations to add trucks
