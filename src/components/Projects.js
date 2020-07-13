@@ -49,8 +49,22 @@ export default function Projects() {
           out over many sites or spreadsheets found online. My goal was to
           compile that information into one site to make the information easier
           to find. The next steps for this project are to convert to JSON and
-          implement it as an API that anyone could use. Currently the code is
-          written in HTML and CSS.
+          implement it as an API that anyone could use. 
+          Languages: HTML and CSS.
+        </p>
+      </ProjectCard>
+      <ProjectCard>
+        <h2>Spotify Suggester</h2>
+        <iframe src="https://bw-spotify1.vercel.app/signup" height="100%"></iframe>
+        <p>
+          I worked on the backend for this project as part of a cross-funcitonal team. I was responsible for user registration and login in as well as the api for users to favorite songs. Languages: JAVA.
+        </p>
+      </ProjectCard>
+      <ProjectCard>
+        <h2>Food Trucker</h2>
+        <iframe src="https://bw-spotify1.vercel.app/signup" height="100%"></iframe>
+        <p>
+          I worked on the backend for this project as part of a cross-funcitonal team. I was responsible for user registration and login in as well as the api for users to favorite songs. Languages: JAVA.
         </p>
       </ProjectCard>
     </ProjectContainer>
