@@ -2,31 +2,38 @@ import React from "react";
 import styled from "styled-components";
 
 const ProjectContainer = styled.section`
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   flex-flow: wrap;
-`
+  * {
+    /* border: 1px solid black; */
+  }
+`;
 
 const ProjectCard = styled.article`
   width: 40%;
   display: flex;
   flex-flow: column;
   justify-content: space-around;
-  background-color: #5A86AF;
-  height: 50%;
+  background-color: #5a86af;
+  height: 40%;
   padding: 2rem;
-  margin: 1rem;
+  /* margin: 1rem; */
   border-radius: 1rem;
 
-  p, h2 {
-    color: #D5E3EB;
+  p,
+  h2 {
+    color: #d5e3eb;
     text-shadow: 0 0 1rem navy;
     margin: 3%;
   }
 `;
 
 export default function Projects() {
-  // add a info button to each card and on click a modal appears 
+  // add a info button to each card and on click a modal appears
   // exit the modal
   return (
     <ProjectContainer>
@@ -51,22 +58,26 @@ export default function Projects() {
           out over many sites or spreadsheets found online. My goal was to
           compile that information into one site to make the information easier
           to find. The next steps for this project are to convert to JSON and
-          implement it as an API that anyone could use. 
-          Languages: HTML and CSS.
+          implement it as an API that anyone could use. Languages: HTML and CSS.
         </p>
       </ProjectCard>
       <ProjectCard>
         <h2>Spotify Suggester</h2>
         {/* <iframe src="https://bw-spotify1.vercel.app/signup" height="100%"></iframe> */}
         <p>
-          I worked on the backend for this project as part of a cross-funcitonal team. I was responsible for user registration and login in as well as the api for users to favorite songs. Languages: JAVA.
+          I worked on the backend for this project as part of a cross-funcitonal
+          team. I was responsible for user registration and login in as well as
+          the api for users to favorite songs. Languages: JAVA.
         </p>
       </ProjectCard>
       <ProjectCard>
         <h2>Food Trucker</h2>
         {/* <iframe src="https://spotify-bw-mp-frontend.spotify-bw-mp.vercel.app/" height="100%"></iframe> */}
         <p>
-          I worked as part of a cross-funcitonal team. I worked with one other person to implement form and state for CRUD operations to add trucks and save them.Languages: React using the Redux library for state management.
+          I worked as part of a cross-funcitonal team. I worked with one other
+          person to implement form and state for CRUD operations to add trucks
+          and save them.Languages: React using the Redux library for state
+          management.
         </p>
       </ProjectCard>
     </ProjectContainer>
