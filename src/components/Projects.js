@@ -4,16 +4,18 @@ import styled from "styled-components";
 const ProjectContainer = styled.section`
   display: flex;
   justify-content: space-around;
+  flex-flow: wrap;
 `
 
 const ProjectCard = styled.article`
-  width: 30%;
+  width: 40%;
   display: flex;
   flex-flow: column;
   justify-content: space-around;
   background-color: #5A86AF;
-  height: 70vh;
+  height: 50%;
   padding: 2rem;
+  margin: 1rem;
   border-radius: 1rem;
 
   p, h2 {
@@ -30,10 +32,10 @@ export default function Projects() {
     <ProjectContainer>
       <ProjectCard>
         <h2>The Family Scrapbook</h2>
-        <iframe
+        {/* <iframe
           src="https://the-family-scrapbook.netlify.app/starthere"
           height="100%"
-        ></iframe>
+        ></iframe> */}
         <p>
           I worked on this website as part of a 3 person team. My responsibility
           was the "Start Here Page". I also helped in the design and
@@ -43,7 +45,7 @@ export default function Projects() {
       </ProjectCard>
       <ProjectCard>
         <h2>GEARformation: Division 2</h2>
-        <iframe src="https://gearformation.netlify.app/" height="100%"></iframe>
+        {/* <iframe src="https://gearformation.netlify.app/" height="100%"></iframe> */}
         <p>
           This is a personal project. The information for the game was spread
           out over many sites or spreadsheets found online. My goal was to
@@ -55,16 +57,16 @@ export default function Projects() {
       </ProjectCard>
       <ProjectCard>
         <h2>Spotify Suggester</h2>
-        <iframe src="https://bw-spotify1.vercel.app/signup" height="100%"></iframe>
+        {/* <iframe src="https://bw-spotify1.vercel.app/signup" height="100%"></iframe> */}
         <p>
           I worked on the backend for this project as part of a cross-funcitonal team. I was responsible for user registration and login in as well as the api for users to favorite songs. Languages: JAVA.
         </p>
       </ProjectCard>
       <ProjectCard>
         <h2>Food Trucker</h2>
-        <iframe src="https://bw-spotify1.vercel.app/signup" height="100%"></iframe>
+        {/* <iframe src="https://spotify-bw-mp-frontend.spotify-bw-mp.vercel.app/" height="100%"></iframe> */}
         <p>
-          I worked on the backend for this project as part of a cross-funcitonal team. I was responsible for user registration and login in as well as the api for users to favorite songs. Languages: JAVA.
+          I worked as part of a cross-funcitonal team. I worked with one other person to implement form and state for CRUD operations to add trucks and save them.Languages: React using the Redux library for state management.
         </p>
       </ProjectCard>
     </ProjectContainer>
