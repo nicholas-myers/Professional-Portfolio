@@ -89,7 +89,7 @@ export default function Projects() {
         <p>
           I worked as part of a cross-funcitonal team. I worked with one other
           person to implement form and state for CRUD operations to add trucks
-          and save them.Languages: React using the Redux library for state
+          and save them. Languages: React using the Redux library for state
           management.
         </p>
       </ProjectCard>

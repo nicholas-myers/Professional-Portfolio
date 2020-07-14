@@ -10,9 +10,9 @@ const ContentSection = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
-  box-shadow: inset 0 0 40px 10px #3ABAE6;
+  box-shadow: inset 0 0 10px 1px #3ABAE6;
   background-color:  #D5E3EB;
-  padding: 1%;
+  /* padding: 1%; */
   height: 75vh;
   width: 100%;
 `;

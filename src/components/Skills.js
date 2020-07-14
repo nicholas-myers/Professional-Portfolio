@@ -10,7 +10,8 @@ const SkillNav = styled.nav`
   width: 100%;
   display: flex;
   justify-content: space-around;
-  box-shadow: 0 0 40px 10px #3ABAE6;
+  box-shadow: 0px 0 10px 5px #3ABAE6;
+  margin: 0;
   a {
     background-color: #2F63AD;
     padding: 0 1rem;

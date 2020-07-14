@@ -6,7 +6,7 @@ const StyledHeader = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-around;
-  box-shadow: inset 0 0 20px 5px #3ABAE6;
+  box-shadow: inset 0 0 10px 1px #3ABAE6;
   background-color: #D5E3EB;
   height: 10vh;
 `;
