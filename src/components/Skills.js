@@ -40,7 +40,7 @@ const SkillNav = styled.nav`
   }
 `;
 
-const SkillCOntainer = styled.div`
+const SkillContainer = styled.div`
   display: flex;
   justify-content: center;
 
