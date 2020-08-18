@@ -52,25 +52,45 @@ const languages = ["HTML", "CSS", "JAVASCRIPT", "REACT", "JAVA", "PYTHON"]
         <Route path="/skills/html">
             <article>
               <h2>HTML</h2>
-              <p>My Approach to HTML</p>
+              <p>Rule to remember: Everything is a box.</p>
+              <p>Step ONE: Draw out on paper or drawing tool of your choice a layout using boxes.</p>
+              <p>Step TWO: Label each box that has symantic meaning.</p>
+
+              <p>Write your Code. Inserting each element into it's proper "box".</p>
             </article>
         </Route>
         <Route path="/skills/css">
             <article>
               <h2>CSS</h2>
-              <p>My Approach to CSS</p>
+              <p>Rule to remember: Everything is a box.</p>
+              <p>Step One: We can go back to our Layout of boxes and make sure we have out non-symantic positioning boxes properly labeled.</p>
+              <p>Step TWO: Starting at our top level(outer-most box). We can use <code>flex</code> or <code>grid</code> to get all our boxes into the right position.</p>
+              <p>Step Three: If our boxes need additional postioning. Use with width and height, again starting at the outermost box.</p>
+              <p>Step Four: If our boxes still need additional postioning. Use Margin and Padding to position elements.</p>
+              <p>Note: when we follow this pattern, in general, we have an easier time with responsive design.</p>
+              <p>Step Five: add color and animation to make our site look clean and professional.</p>
             </article>
         </Route>
         <Route path="/skills/js">
             <article>
               <h2>JAVASCRIPT</h2>
-              <p>My Approach to JAVASCRIPT</p>
+              <p>We can use JS to help with our animations.</p>
+              <p>Choose an element.</p>
+              <p>Choose a trigger.</p>
+              <p>We can also use JS to set up forms.</p>
+              <p>Talk with a server or API.</p>
+              <p>Dynamically create and remove elements, based on user interaction with our site or by interacting with a server or api.</p>
+              <p>JS is not strongly typed we can fluidly use OOP(object oriented programming) or FP(Functional Programming) to solve problems.</p>
             </article>
         </Route>
         <Route path="/skills/react">
             <article>
               <h2>REACT</h2>
-              <p>My Approach to React</p>
+              <p>A combination of JS, HTML, and CSS with an extra tool set to more easily work with the DOM.This combonation is called JSX.</p>
+              <p>Keep in Mind: everything is a box.</p>
+              <p>When creating our components. We can go back to our design Layout and define which boxes we want to be a component. We especially make components that we can reuse more than once to reduce the lines of code(DRY code).</p>
+              <p>Examine How much state we need and what management system is best suited for our purposes. Use Redux for large and scalable state. We can use Context if we don't need to reuse state too much. Or props if most of our state is local and only needs to flow one direction with a minimal amount of passing.</p>
+              <p>If we want quick already styled components, use a component library such as Material UI. If we want custom components, we can use styled-Components and SASS or LESS.</p>
             </article>
         </Route>
         <Route path="/skills/java">
