@@ -5,6 +5,16 @@ import styled from "styled-components";
 const SkillSection = styled.section`
   height: 100%;
   width: 100%;
+  div {
+    height: 100%;
+  }
+  article {
+    height: 90%;
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    flex-flow: column;
+  }
 `;
 const SkillNav = styled.nav`
   width: 100%;
@@ -91,18 +101,32 @@ const languages = ["HTML", "CSS", "JAVASCRIPT", "REACT", "JAVA", "PYTHON"]
               <p>When creating our components. We can go back to our design Layout and define which boxes we want to be a component. We especially make components that we can reuse more than once to reduce the lines of code(DRY code).</p>
               <p>Examine How much state we need and what management system is best suited for our purposes. Use Redux for large and scalable state. We can use Context if we don't need to reuse state too much. Or props if most of our state is local and only needs to flow one direction with a minimal amount of passing.</p>
               <p>If we want quick already styled components, use a component library such as Material UI. If we want custom components, we can use styled-Components and SASS or LESS.</p>
+              <p>Add testing to make sure all components are functional.</p>
             </article>
         </Route>
         <Route path="/skills/java">
             <article>
               <h2>JAVA</h2>
-              <p>My Approach to JAVA</p>
+              <p>I can Build a backend Server.</p>
+              <p>Strongly Typed, OOP</p>
+              <p>Draw out what our data structure will look like. Draw each table, and each piece of data is connected to a particular table. Draw the connections to each table.</p>
+              <p>Build class constructors</p>
+              <p>determine what services(interfaces) each table will have.</p>
+              <p>Build the endpoints in our Controllers.</p>
+              <p>Create Exception handling.</p>
+              <p>Test server returns.</p>
+              <p>Add data persistence and host.</p>
             </article>
         </Route>
         <Route path="/skills/python">
             <article>
               <h2>PYTHON</h2>
-              <p>My Approach to Python</p>
+              <p>UPER</p>
+              <li>Understand</li>
+              <li>Plan</li>
+              <li>Execute</li>
+              <li>Review</li>
+              <p>Strongly Typed, OOP</p>
             </article>
         </Route>
       </div>
