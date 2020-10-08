@@ -28,9 +28,10 @@ export default function Nav() {
   return (
     <Social>
       <SocialLink className="fa fa-twitter" href="https://twitter.com/NickMyersPro" target="_blank"></SocialLink>
-      <SocialLink className="fa fa-twitch" href="https://www.twitch.tv/korefucious" target="_blank"></SocialLink>
-      <SocialLink className="fa fa-youtube" href="https://www.youtube.com/channel/UCQ3_QXu3IVyqSX6NoN4Di2w/featured" target="_blank"></SocialLink>
+      {/* <SocialLink className="fa fa-twitch" href="https://www.twitch.tv/korefucious" target="_blank"></SocialLink> */}
+      {/* <SocialLink className="fa fa-youtube" href="https://www.youtube.com/channel/UCQ3_QXu3IVyqSX6NoN4Di2w/featured" target="_blank"></SocialLink> */}
       <SocialLink className="fa fa-linkedin" href="https://www.linkedin.com/in/nicholas-myers-professional/" target="_blank"></SocialLink>
+      <SocialLink className="fa fa-envelope"></SocialLink>
     </Social>
   );
 }

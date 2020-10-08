@@ -69,15 +69,13 @@ export default function Projects() {
         </p>
       </ProjectCard>
       <ProjectCard>
-        <h2>Spotify Suggester</h2>
+        <h2>Apollo</h2>
         {/* <iframe src="https://bw-spotify1.vercel.app/signup" height="100%"></iframe> */}
         <a href="https://bw-spotify1.vercel.app/signup" target="_blank">
-        https://bw-spotify1.vercel.app/signup
+        https://b.apollox.dev
         </a>
         <p>
-          I worked on the backend for this project as part of a cross-funcitonal
-          team. I was responsible for user registration and login in as well as
-          the api for users to favorite songs. Languages: JAVA.
+          I worked as part of a cross-functional team. The back-end is developed in the Java Spring framework. The Front-End use React and Redux. Secured with Okta.
         </p>
       </ProjectCard>
       <ProjectCard>

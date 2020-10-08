@@ -65,8 +65,16 @@ const languages = ["HTML", "CSS", "JAVASCRIPT", "REACT", "JAVA", "PYTHON"]
               <p>Rule to remember: Everything is a box.</p>
               <p>Step ONE: Draw out on paper or drawing tool of your choice a layout using boxes.</p>
               <p>Step TWO: Label each box that has symantic meaning.</p>
-
               <p>Write your Code. Inserting each element into it's proper "box".</p>
+              {/* <div>
+                  <pre>
+                    <code>
+                      <p>
+                        1 |
+                      </p> <p>{`function blitz(){return “function body is visible”}`}</p>
+                    </code>
+                  </pre>
+              </div> */}
             </article>
         </Route>
         <Route path="/skills/css">
