@@ -9,6 +9,11 @@ const StyledHeader = styled.header`
   box-shadow: inset 0 0 10px 1px #3ABAE6;
   background-color: #D5E3EB;
   height: 10vh;
+  @media(max-width: 500px) {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
 `;
 
 const NameContainer = styled.div`
@@ -19,6 +24,10 @@ const NameContainer = styled.div`
   text-shadow: 0 0 5px #3ABAE6;
   @media(max-width: 1350px) {
     flex-wrap: wrap;
+  }
+  @media(max-width: 500px) {
+    display: block;
+    width: 100%;
   }
 `;
 
@@ -33,6 +42,10 @@ const Title = styled.h1`
   font-size: 4rem;
   @media(max-width: 1350px) {
     width: 100%;
+  }
+  @media(max-width: 500px) {
+    width: 100%;
+    font-size: 3rem;
   }
 
 `

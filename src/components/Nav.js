@@ -6,6 +6,11 @@ const TopNav = styled.nav`
   width: 30%;
   display: flex;
   justify-content: space-around;
+  @media(max-width: 500px) {
+    width: 100%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+  }
 `
 
 export default function Nav() {

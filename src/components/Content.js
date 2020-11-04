@@ -15,6 +15,7 @@ const ContentSection = styled.div`
   /* padding: 1%; */
   height: 75vh;
   width: 100%;
+  
 `;
 
 function Content() {

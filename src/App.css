@@ -23,9 +23,17 @@ h2 {
   font-size: 2rem;
 }
 
-a, p, li {
+a, p, li, label {
   font-size: 2rem;
   font-weight: bold;
+}
+
+textarea {
+  resize: none;
+}
+
+input, textarea {
+  font-size: 2rem;
 }
 
 .topNav {

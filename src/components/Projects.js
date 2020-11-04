@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const ProjectContainer = styled.section`
   width: 100%;
@@ -11,6 +11,9 @@ const ProjectContainer = styled.section`
   flex-flow: wrap;
   * {
     /* border: 1px solid black; */
+  }
+  @media (max-width: 500px) {
+    overflow: scroll;
   }
 `;
 
@@ -24,12 +27,18 @@ const ProjectCard = styled.article`
   padding: 2rem;
   /* margin: 1rem; */
   border-radius: 1rem;
-
+  @media (max-width: 500px) {
+    width: 90%;
+    height: 80%;
+    padding: 0;
+    margin: 2% 0;
+  }
   p,
   h2 {
     color: #d5e3eb;
     text-shadow: 0 0 1rem navy;
     margin: 3%;
+    
   }
 `;
 
@@ -44,8 +53,11 @@ export default function Projects() {
           src="https://the-family-scrapbook.netlify.app/starthere"
           height="100%"
         ></iframe> */}
-        <a href="https://the-family-scrapbook.netlify.app/starthere" target="_blank">
-        	https://the-family-scrapbook.netlify.app/starthere
+        <a
+          href="https://the-family-scrapbook.netlify.app/starthere"
+          target="_blank"
+        >
+          https://the-family-scrapbook.netlify.app/starthere
         </a>
         <p>
           I worked on this website as part of a 3 person team. My responsibility
@@ -58,7 +70,7 @@ export default function Projects() {
         <h2>GEARformation: Division 2</h2>
         {/* <iframe src="https://gearformation.netlify.app/" height="100%"></iframe> */}
         <a href="https://gearformation.netlify.app/" target="_blank">
-        https://gearformation.netlify.app/
+          https://gearformation.netlify.app/
         </a>
         <p>
           This is a personal project. The information for the game was spread
@@ -72,17 +84,22 @@ export default function Projects() {
         <h2>Apollo</h2>
         {/* <iframe src="https://bw-spotify1.vercel.app/signup" height="100%"></iframe> */}
         <a href="https://bw-spotify1.vercel.app/signup" target="_blank">
-        https://b.apollox.dev
+          https://b.apollox.dev
         </a>
         <p>
-          I worked as part of a cross-functional team. The back-end is developed in the Java Spring framework. The Front-End use React and Redux. Secured with Okta.
+          I worked as part of a cross-functional team. The back-end is developed
+          in the Java Spring framework. The Front-End use React and Redux.
+          Secured with Okta.
         </p>
       </ProjectCard>
       <ProjectCard>
         <h2>Food Trucker</h2>
         {/* <iframe src="https://spotify-bw-mp-frontend.spotify-bw-mp.vercel.app/" height="100%"></iframe> */}
-        <a href="https://spotify-bw-mp-frontend.spotify-bw-mp.vercel.app/" target="_blank">
-        https://spotify-bw-mp.vercel.app/
+        <a
+          href="https://spotify-bw-mp-frontend.spotify-bw-mp.vercel.app/"
+          target="_blank"
+        >
+          https://spotify-bw-mp.vercel.app/
         </a>
         <p>
           I worked as part of a cross-funcitonal team. I worked with one other

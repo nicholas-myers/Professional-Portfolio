@@ -5,33 +5,32 @@ const AboutSection = styled.div`
   height: 90%;
   width: 50%;
   border-radius: 5rem;
-  padding: 1%;
   background-color: #5a86af;
   box-shadow: 0 0 2rem 0 #3abae6;
   display: flex;
   justify-content: space-around;
   flex-flow: column;
   align-items: center;
-  * {
-    /* border: 1px solid black; */
+  @media(max-width: 500px) {
+    width: 90%;
   }
 `;
 
 const ProfilePic = styled.img`
-  // border: 2px solid #122059;
   border-radius: 5rem;
   height: 50%;
-  /* width: 50% */
+  @media(max-width: 500px) {
+    padding: 2%;
+  }
 `;
 
 const AboutMe = styled.p`
-  display: flex;
-  align-items: center;
-  border-radius: 2rem;
   font-size: 2rem;
   color: #d5e3eb;
   text-shadow: 0 2px 20px #1a2243;
-  height: 50%;
+  @media(max-width: 500px) {
+    padding: 2%;
+  }
 `;
 
 export default function About() {
