@@ -134,6 +134,7 @@ export default function Nav() {
         <EmailModal>
           <div style={{ display: "flex", justifyContent: "space-between" }}>
             <h2 style={{ padding: "1rem" }}>Contact Me</h2>
+            <p style={{ padding: "1rem" }}>nicholas.myers.professional@gmail.com</p>
             <button
               style={{
                 fontSize: "2rem",
