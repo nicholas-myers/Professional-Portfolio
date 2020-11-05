@@ -37,6 +37,10 @@ const ModalBackdrop = styled.div`
   padding-top: 10rem;
   background-color: rgb(0, 0, 0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  @media (max-width: 500px) {
+    padding-left: 10%;
+    padding-top: 10%;
+  }
 `;
 
 const EmailModal = styled.div`
@@ -44,6 +48,17 @@ const EmailModal = styled.div`
   width: 50%;
   height: 80%;
   border-radius: 1rem;
+  @media (max-width: 500px) {
+    width: 90%;
+    form {
+      input {
+        width: 90%;
+      }
+      textarea {
+        width: 90%;
+      }
+    }
+  }
 `;
 
 export default function Nav() {
@@ -53,7 +68,7 @@ export default function Nav() {
     message: "",
   };
 
-  const [warning, setWarning] = useState("")
+  const [warning, setWarning] = useState("");
 
   const [emailValues, setEmailValues] = useState(initialFormValues);
 
@@ -72,10 +87,10 @@ export default function Nav() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    
+
     for (const [key, value] of Object.entries(emailValues)) {
       if (value === "") {
-        return setWarning(`Please input your ${key}!`)
+        return setWarning(`Please input your ${key}!`);
       }
     }
     emailjs
@@ -94,6 +109,7 @@ export default function Nav() {
         }
       );
     setIsVisible("none");
+    setEmailValues(initialFormValues);
   };
 
   return (
@@ -145,13 +161,11 @@ export default function Nav() {
             <label>Name</label>
             <input
               name="name"
-              style={{ width: "50%" }}
               value={emailValues.name}
               onChange={changeValue}
             />
             <label>Email</label>
             <input
-              style={{ width: "50%" }}
               name="email"
               value={emailValues.email}
               onChange={changeValue}
@@ -162,9 +176,18 @@ export default function Nav() {
               value={emailValues.message}
               onChange={changeValue}
             />
-            {warning != "" && <p style={{color: "red"}}>{warning}</p>}
+            {warning != "" && <p style={{ color: "red" }}>{warning}</p>}
             <button
-              style={{ width: "auto", padding: ".5rem", marginBottom: "2rem" }}
+              style={{
+                width: "auto",
+                padding: ".5rem",
+                marginBottom: "2rem",
+                backgroundColor: "#1a2243",
+                color: "white",
+                borderRadius: "1rem",
+                border: "none",
+                padding: "1rem",
+              }}
             >
               Send
             </button>
