@@ -52,6 +52,16 @@ const EmailModal = styled.div`
   width: 50%;
   height: 80%;
   border-radius: 1rem;
+ #send-email-button {
+        width: auto;
+        padding: .5rem;
+        margin-bottom: 2rem;
+        background-color: #1a2243;
+        color: white;
+        border-radius: 1rem;
+        border: none;
+        padding: 1rem;
+      }
   @media (max-width: 500px) {
     width: 90%;
     form {
@@ -66,7 +76,6 @@ const EmailModal = styled.div`
   @media (max-width: 800px) {
     width: 90%;
     height: 90vh;
-
   }
 `;
 
@@ -102,9 +111,9 @@ export default function Nav() {
         return setWarning(`Please input your ${key}!`);
       }
       if (key === "email") {
-        let re = /\S+@\S+\.\S+/
+        let re = /\S+@\S+\.\S+/;
         if (re.test(value) === false) {
-          return setWarning("Please enter a valid email!")
+          return setWarning("Please enter a valid email!");
         }
       }
     }
@@ -149,7 +158,6 @@ export default function Nav() {
         <EmailModal>
           <div style={{ display: "flex", justifyContent: "space-between" }}>
             <h2 style={{ padding: "1rem" }}>Contact Me</h2>
-            <p style={{ padding: "1rem" }}>nicholas.myers.professional@gmail.com</p>
             <button
               style={{
                 fontSize: "2rem",
@@ -193,20 +201,7 @@ export default function Nav() {
               onChange={changeValue}
             />
             {warning != "" && <p style={{ color: "red" }}>{warning}</p>}
-            <button
-              style={{
-                width: "auto",
-                padding: ".5rem",
-                marginBottom: "2rem",
-                backgroundColor: "#1a2243",
-                color: "white",
-                borderRadius: "1rem",
-                border: "none",
-                padding: "1rem",
-              }}
-            >
-              Send
-            </button>
+            <button id="send-email-button">Send</button>
           </form>
         </EmailModal>
       </ModalBackdrop>
