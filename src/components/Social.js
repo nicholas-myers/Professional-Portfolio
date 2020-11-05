@@ -92,6 +92,12 @@ export default function Nav() {
       if (value === "") {
         return setWarning(`Please input your ${key}!`);
       }
+      if (key === "email") {
+        let re = /\S+@\S+\.\S+/
+        if (re.test(value) === false) {
+          return setWarning("Please enter a valid email!")
+        }
+      }
     }
     emailjs
       .sendForm(
