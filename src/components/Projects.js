@@ -14,6 +14,7 @@ const ProjectContainer = styled.section`
   }
   @media (max-width: 500px) {
     overflow: scroll;
+    overflow-x: hidden;
   }
 `;
 
@@ -29,7 +30,7 @@ const ProjectCard = styled.article`
   border-radius: 1rem;
   @media (max-width: 500px) {
     width: 90%;
-    height: 80%;
+    height: 50%;
     padding: 0;
     margin: 2% 0;
   }
@@ -82,8 +83,8 @@ export default function Projects() {
       </ProjectCard>
       <ProjectCard>
         <h2>Apollo</h2>
-        {/* <iframe src="https://bw-spotify1.vercel.app/signup" height="100%"></iframe> */}
-        <a href="https://bw-spotify1.vercel.app/signup" target="_blank">
+        {/* <iframe src="https://b.apollox.dev" height="100%"></iframe> */}
+        <a href="https://b.apollox.dev" target="_blank">
           https://b.apollox.dev
         </a>
         <p>
@@ -94,12 +95,12 @@ export default function Projects() {
       </ProjectCard>
       <ProjectCard>
         <h2>Food Trucker</h2>
-        {/* <iframe src="https://spotify-bw-mp-frontend.spotify-bw-mp.vercel.app/" height="100%"></iframe> */}
+        {/* <iframe src="https://thefoodtruckr.netlify.app/" height="100%"></iframe> */}
         <a
-          href="https://spotify-bw-mp-frontend.spotify-bw-mp.vercel.app/"
+          href="https://thefoodtruckr.netlify.app/"
           target="_blank"
         >
-          https://spotify-bw-mp.vercel.app/
+          https://thefoodtruckr.netlify.app/
         </a>
         <p>
           I worked as part of a cross-funcitonal team. I worked with one other

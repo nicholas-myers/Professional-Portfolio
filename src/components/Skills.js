@@ -17,6 +17,7 @@ const SkillSection = styled.section`
   }
   @media (max-width: 500px) {
     overflow: scroll;
+    overflow-x: hidden;
   }
 `;
 const SkillNav = styled.nav`

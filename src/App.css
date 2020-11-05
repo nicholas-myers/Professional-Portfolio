@@ -23,13 +23,16 @@ h2 {
   font-size: 2rem;
 }
 
-a, p, li, label {
+a, p, li, label, button {
   font-size: 2rem;
   font-weight: bold;
 }
 
 textarea {
   resize: none;
+  text-align: left;
+  width: 80%;
+  height: 50%;
 }
 
 input, textarea {
