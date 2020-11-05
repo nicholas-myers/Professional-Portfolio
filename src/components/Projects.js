@@ -94,6 +94,7 @@ export default function Projects() {
         <a href="https://b.apollox.dev" target="_blank">
           https://b.apollox.dev
         </a>
+        <p>Login = llama003@maildrop.cc : Test003Test</p>
         <p>
           I worked as part of a cross-functional team. The back-end is developed
           in the Java Spring framework. The Front-End use React and Redux.
