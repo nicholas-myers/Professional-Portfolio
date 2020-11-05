@@ -11,7 +11,7 @@ const TopNav = styled.nav`
     padding-bottom: 3%;
     padding-top: 3%;
   }
-  @media(max-width: 800px) {
+  @media(min-width: 700px) {
     width: 50%;
   }
 `

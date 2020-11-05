@@ -10,6 +10,7 @@ const StyledFooter = styled.footer`
   background-color: #D5E3EB;
   padding: 1%;
   height: 15vh;
+  
 `;
 
 function Footer() {

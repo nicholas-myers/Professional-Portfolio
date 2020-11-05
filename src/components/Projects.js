@@ -30,7 +30,7 @@ const ProjectCard = styled.article`
   border-radius: 1rem;
   @media (max-width: 500px) {
     width: 90%;
-    height: 50%;
+    height: 30%;
     padding: 0;
     margin: 2% 0;
   }
@@ -38,14 +38,23 @@ const ProjectCard = styled.article`
   h2 {
     color: #d5e3eb;
     text-shadow: 0 0 1rem navy;
-    margin: 3%;
+    /* margin: 3%; */
+    font-size: 1.5rem;
   }
-  @media (max-width: 800px) {
+  @media (min-width: 700px) {
     width: 48%;
     height: 45%;
     h2,
     p {
       font-size: 1.5rem;
+    }
+  }
+  @media (min-width: 1000px) {
+    width: 48%;
+    height: 45%;
+    h2,
+    p {
+      font-size: 2rem;
     }
   }
 `;
@@ -84,8 +93,7 @@ export default function Projects() {
           This is a personal project. The information for the game was spread
           out over many sites or spreadsheets found online. My goal was to
           compile that information into one site to make the information easier
-          to find. The next steps for this project are to convert to JSON and
-          implement it as an API that anyone could use. Languages: HTML and CSS.
+          to find. In the process of converting to React and creating a Java API for the backend. Languages: HTML and CSS.
         </p>
       </ProjectCard>
       <ProjectCard>
@@ -97,7 +105,7 @@ export default function Projects() {
         <p>Login = llama003@maildrop.cc : Test003Test</p>
         <p>
           I worked as part of a cross-functional team. The back-end is developed
-          in the Java Spring framework. The Front-End use React and Redux.
+          in the Java Spring framework. The Front-End uses React and Redux.
           Secured with Okta.
         </p>
       </ProjectCard>
