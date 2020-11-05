@@ -41,6 +41,10 @@ const ModalBackdrop = styled.div`
     padding-left: 10%;
     padding-top: 10%;
   }
+  @media (max-width: 800px) {
+    padding-left: 10%;
+    padding-top: 5%;
+  }
 `;
 
 const EmailModal = styled.div`
@@ -58,6 +62,11 @@ const EmailModal = styled.div`
         width: 90%;
       }
     }
+  }
+  @media (max-width: 800px) {
+    width: 90%;
+    height: 90vh;
+
   }
 `;
 

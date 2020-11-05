@@ -39,7 +39,14 @@ const ProjectCard = styled.article`
     color: #d5e3eb;
     text-shadow: 0 0 1rem navy;
     margin: 3%;
-    
+  }
+  @media (max-width: 800px) {
+    width: 48%;
+    height: 45%;
+    h2,
+    p {
+      font-size: 1.5rem;
+    }
   }
 `;
 
@@ -96,10 +103,7 @@ export default function Projects() {
       <ProjectCard>
         <h2>Food Trucker</h2>
         {/* <iframe src="https://thefoodtruckr.netlify.app/" height="100%"></iframe> */}
-        <a
-          href="https://thefoodtruckr.netlify.app/"
-          target="_blank"
-        >
+        <a href="https://thefoodtruckr.netlify.app/" target="_blank">
           https://thefoodtruckr.netlify.app/
         </a>
         <p>

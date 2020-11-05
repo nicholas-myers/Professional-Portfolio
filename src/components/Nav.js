@@ -11,6 +11,9 @@ const TopNav = styled.nav`
     padding-bottom: 3%;
     padding-top: 3%;
   }
+  @media(max-width: 800px) {
+    width: 50%;
+  }
 `
 
 export default function Nav() {

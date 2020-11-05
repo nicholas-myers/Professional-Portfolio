@@ -47,6 +47,10 @@ const Title = styled.h1`
     width: 100%;
     font-size: 3rem;
   }
+  @media(max-width: 800px) {
+    width: 100%;
+    font-size: 2rem;
+  }
 
 `
 
