@@ -1,10 +1,13 @@
 import React from "react";
 import { NavLink, Route } from "react-router-dom";
 import styled from "styled-components";
+import HTML from "./HTML"
 
 const SkillSection = styled.section`
   height: 100%;
   width: 100%;
+  overflow: scroll;
+  overflow-x: hidden;
   div {
     height: 100%;
   }
@@ -56,10 +59,12 @@ const SkillNav = styled.nav`
 
 const SkillContent = styled.div`
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 `;
 
 export default function Skills() {
-  const languages = ["HTML", "CSS", "JAVASCRIPT", "REACT", "JAVA", "PYTHON"];
+
   return (
     <SkillSection>
       <SkillNav>
@@ -90,27 +95,7 @@ export default function Skills() {
       </SkillNav>
       <SkillContent>
         <Route path="/skills/html">
-          <article>
-            <h2>HTML</h2>
-            <p>Rule to remember: Everything is a box.</p>
-            <p>
-              Step ONE: Draw out on paper or drawing tool of your choice a
-              layout using boxes.
-            </p>
-            <p>Step TWO: Label each box that has symantic meaning.</p>
-            <p>
-              Write your Code. Inserting each element into it's proper "box".
-            </p>
-            {/* <div>
-                  <pre>
-                    <code>
-                      <p>
-                        1 |
-                      </p> <p>{`function blitz(){return “function body is visible”}`}</p>
-                    </code>
-                  </pre>
-              </div> */}
-          </article>
+          <HTML />
         </Route>
         <Route path="/skills/css">
           <article>

@@ -93,7 +93,8 @@ export default function Projects() {
           This is a personal project. The information for the game was spread
           out over many sites or spreadsheets found online. My goal was to
           compile that information into one site to make the information easier
-          to find. In the process of converting to React and creating a Java API for the backend. Languages: HTML and CSS.
+          to find. In the process of converting to React and creating a Java API
+          for the backend. Languages: HTML and CSS.
         </p>
       </ProjectCard>
       <ProjectCard>
@@ -110,16 +111,17 @@ export default function Projects() {
         </p>
       </ProjectCard>
       <ProjectCard>
-        <h2>Food Trucker</h2>
+        <h2>Conway's Game of Life</h2>
         {/* <iframe src="https://thefoodtruckr.netlify.app/" height="100%"></iframe> */}
         <a href="https://thefoodtruckr.netlify.app/" target="_blank">
-          https://thefoodtruckr.netlify.app/
+          https://cs-build-week-1-ruby.vercel.app/
         </a>
         <p>
-          I worked as part of a cross-funcitonal team. I worked with one other
-          person to implement form and state for CRUD operations to add trucks
-          and save them. Languages: React using the Redux library for state
-          management.
+          The visual representation of the mathematical simulation of cell
+          lifecycles. I constructed the state management using the Immer library
+          to create copies of an immutable state. I enacted an algorithm to
+          follow the rules of Conway for simulation cell lifecycles.
+          I implemented the code base in the one-week release canvas time frame. Languages: React and Immer library.
         </p>
       </ProjectCard>
     </ProjectContainer>
