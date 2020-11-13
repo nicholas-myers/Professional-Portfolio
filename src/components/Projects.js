@@ -113,14 +113,14 @@ export default function Projects() {
       <ProjectCard>
         <h2>Conway's Game of Life</h2>
         {/* <iframe src="https://thefoodtruckr.netlify.app/" height="100%"></iframe> */}
-        <a href="https://thefoodtruckr.netlify.app/" target="_blank">
+        <a href="https://cs-build-week-1-ruby.vercel.app/" target="_blank">
           https://cs-build-week-1-ruby.vercel.app/
         </a>
         <p>
           The visual representation of the mathematical simulation of cell
           lifecycles. I constructed the state management using the Immer library
           to create copies of an immutable state. I enacted an algorithm to
-          follow the rules of Conway for simulation cell lifecycles.
+          follow the rules of Conway for simulation of cell lifecycles.
           I implemented the code base in the one-week release canvas time frame. Languages: React and Immer library.
         </p>
       </ProjectCard>
